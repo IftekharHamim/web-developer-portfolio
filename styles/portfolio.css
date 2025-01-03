@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", serif;
 }
+/* nav related style Start */
 .text_primary{
     color: #FD6E0A;
 }
@@ -11,17 +12,18 @@ body{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 35px;
+    padding: 18px 40px;
     cursor: pointer;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav_title{
     color: #181818;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
 }
 nav ul{
@@ -30,9 +32,23 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 nav ul li a{
     text-decoration: none;
     color: #474747;
+}
+/* nav related style End */
+
+/* Header related style Start */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile_picture{
+    width: 400px;
 }
