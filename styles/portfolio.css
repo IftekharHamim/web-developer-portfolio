@@ -90,11 +90,22 @@ nav ul li a{
 /* Header related style end */
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_info{
+    text-align: center;
+    line-height:6px;
 }
